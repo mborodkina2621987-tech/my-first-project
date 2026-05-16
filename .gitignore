@@ -141,3 +141,18 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Дополнения под наш проект (Bun + TS + Hono + Vite/React)
+# Секреты — никогда не коммитить
+*.key
+*.pem
+secrets/
+
+# OS / IDE
+.DS_Store
+
+# Python (на всякий, если будут вспомогательные скрипты)
+__pycache__/
+
+# Next.js (если когда-нибудь добавим)
+.next/
